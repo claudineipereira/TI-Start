@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    width: 100%;
+    background-color: blue;
+    border-bottom: 5px solid black;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;;
+    padding: 15px;
+}
