@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 30px auto;
+    /* background-color: rgba(173, 20, 87, 0.8); */
+    /* background: linear-gradient(to left, #D7CCC8, #4E342E); */
+    background: radial-gradient(circle, #ECEFF1, #607D8B, #263238)
+}
