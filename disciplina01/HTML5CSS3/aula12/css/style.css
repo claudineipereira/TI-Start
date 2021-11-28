@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* 
+# filha
+#pai #filha
+*/
+#pai > #filha {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border: 1px solid  black;
+}
