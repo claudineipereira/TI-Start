@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div#ex26 {
+    margin: 150px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+div#ex26:hover {
+    margin: 125px auto;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
