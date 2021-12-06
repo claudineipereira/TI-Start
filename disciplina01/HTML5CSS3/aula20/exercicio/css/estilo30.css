@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section#formulario {
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+form {
+    width: 100%;
+    height: auto;
+}
+
+input {
+    display: block;
+}
+
+fieldset {
+    border: none;
+    padding-bottom: 15px;
+}
+
+legend {
+    padding-bottom: 15px;
+}
+
+.campo {
+    width: 100%;
+    height: auto;
+}

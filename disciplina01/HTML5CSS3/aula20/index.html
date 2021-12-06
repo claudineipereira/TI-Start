@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aula 20 - Formulários</title>
+</head>
+<body>
+
+<section id="formulario">
+
+    <form method="get" name="cadastro">
+
+        <fieldset>
+
+            <legend>Cadastro de usuário</legend>
+
+            <label for="nomeUsuario">Nome</label>
+            <input type="text" class="txt" id="nomeUsuario" 
+                name="nomeUsuario" value="" placeholder="Digite seu nome" required>
+            
+            <label for="sobrenomeUsuario">Sobrenome</label>
+            <input type="text" class="txt" id="sobrenomeUsuario" 
+                name="sobrenomeUsuario" value="" required>
+            
+            <label for="dataNascimentoUsuario">Nascimento</label>
+            <input type="text" class="txt" id="dataNascimentoUsuario" name="dataNascimentoUsuario" value="">
+            
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Sexo</legend>
+
+            <label for="generoM">Masculino</label>
+            <input type="radio" id="generoM" name="genero" value="m">
+
+            <label for="generoF">Feminino</label>
+            <input type="radio" id="generoF" name="genero" value="f">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Preferências</legend>
+
+            <label for="php">PHP</label>
+            <input type="checkbox" id="php" name="php" value="php">
+            
+            <label for="js">Javascript</label>
+            <input type="checkbox" id="js" name="js" value="js">
+            
+            <label for="html_css">HTML/CSS</label>
+            <input type="checkbox" id="html_css" name="html_css" value="html_css">
+
+        </fieldset>
+
+        <fieldset>
+            <select>
+                <option value="">Selecione</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+                <option value="plus">Plus Plus Master</option>
+            </select>
+        </fieldset> 
+
+        <fieldset>
+            <label for="edicao">Escreva mais sobre você</label>
+            <textarea type="textarea" id="edicao" name="edicao" 
+                cols="80" rows="10" value=""></textarea>
+        </fieldset>
+
+        <input type="submit" name="enviarDados" value="enviar">
+
+    </form>
+    
+</section>
+
+</body>
+</html>
