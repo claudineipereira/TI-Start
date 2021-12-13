@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="css/estilo31.css"> -->
-    <title>Exercicio 31</title>
+    <title>Aula 23 - Media Query</title>
 </head>
 
 <style>
@@ -57,6 +57,24 @@ section {
 
 .space-between {
     justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+
+    body {
+        background-color: black;
+    }
+
+    section, footer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    section.content-card > div, footer > div {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
 }
 
 </style>
